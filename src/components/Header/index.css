@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.d-none{
+    display: flex;
+}
+
+.d-display{
+    display: none;
+}
+
+@media (max-width:767px){
+    .d-display{
+        display: flex;
+    }
+    .d-none{
+        display: none;
+    }
+}
